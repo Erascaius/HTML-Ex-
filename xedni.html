@@ -13,21 +13,25 @@
     <main>
         <section>
             <div>
-                <input name="NameTab" type="text" value="Inserire Nome e Cognome" size="20" maxlength="200"/>
+                <label for="descrizione__NameTag"> Inserire i seguenti valori<br>
+                        <input name="NameTab" type="text" value=" Nome" size="10" maxlength="200"/>
+                        <input name="SurnameTab" type="text" value=" Cognome" size="10" maxlength="200"/>
+                </label>
             </div>
         </section>
-            <label for="descrizione"> la TextArea è composta da 4 righe e 50 Colonne
-                <div>
+            <label for="descrizione__TextArea"> la TextArea è composta da 4 righe e 50 Colonne <br>
                     <textarea name="TextArea" id="me" rows="4" cols="50"></textarea>
-                </div>
             </label>
         <section>
+            <label for="descrizione__Gender"> Selezionare una delle opzioni: <br>
             <input type="radio" id="Maschio" name="Gender_Choice" value="Maschio">
             <label for="Maschio">Maschio</label><br>
             <input type="radio" id="Femmina" name="Gender_Choice" value="Femmina">
             <label for="Femmina">Femmina</label><br>
+            </label>
         </section>
         <section>
+            <br>
             <input type="checkbox" id="Privacy&Policy" name="Privacy&Policy" value="Privacy&Policy_Terms">
             <label for="Privacy&Policy">Privacy & Policy</label><br>
         </section>
