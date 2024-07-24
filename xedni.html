@@ -12,12 +12,13 @@
     </header>
     <main>
         <section>
-            <div>
-                <label for="descrizione__NameTag"> Inserire i seguenti valori<br>
+                <form action="/action_page.php" method="get">
+                    <label for="descrizione__NameTag"> Inserire i seguenti valori<br>
                         <input name="NameTab" type="text" value=" Nome" size="10" maxlength="200" required/>
                         <input name="SurnameTab" type="text" value=" Cognome" size="10" maxlength="200"required/>
-                </label>
-            </div>
+                        <input type="submit" value="Submit">
+                    </label>
+                </form>
         </section>
             <label for="descrizione__TextArea"> la TextArea è composta da 4 righe e 50 Colonne <br>
                     <textarea name="TextArea" id="me" rows="4" cols="50"></textarea>
